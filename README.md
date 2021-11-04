@@ -27,6 +27,12 @@ De cara, misturar meu nome com a proposta, é claro! Como devo seguir o modelo d
 
 **Observação:** Como usuário linux e por ter um computador *low end*, utilizar o Adobe XD ficou fora de cogitação para referenciar, portanto, utilizarei meus conhecimentos e o layout a se basear na imagem enviada. Espero não perder pontos devido a detalhes de espaçamento.
 
+Para conciliar o React com o clássico HTML feito à mão, escolhi desenvolver com o Next.JS, graças à sua tecnologia de compilar o projeto ao mais nativo possível, ou seja, ele dispensa a responsabilidade total do `HTML in JS` como **[SPA]**, em outras palavras, **renderiza e constroe o React em HTML e CSS**, todas as tags, elementos, classes geradas pelo Javascript. Com isso, é possível controlar e facilitar a leitura dos WebCrawlers dos provedores de busca, da geração das meta tags e de estilizações de pré-processadores.
+
+Neste projeto utilizarei este [kanban] e a aba [issues] para controle de tarefas e desenvolvimento.
+
+Para acelerar o uso, configuração de ambiente e instalação de pacotes, utilizei este [template] de [ixkaito].
+
 ** ** *Em desenvolvimento(Estou aqui.)* ** **
 
 ## Padrões de desenvolvimento:
@@ -44,3 +50,8 @@ Feito com 💜, Savio Castelo, 2021.
 [Brivia]: https://www.brivia.com.br
 [Airbnb]: https://github.com/airbnb/javascript
 [documentação]: https://nextjs.org/docs/basic-features/layouts#with-typescript
+[SPA]: https://www.portalgsti.com.br/2017/08/single-page-application-spa.html#:~:text=SPA%20significa%20Aplica%C3%A7%C3%A3o%20de%20P%C3%A1gina,de%20%23JavaScript%20e%20seus%20frameworks.
+[kanban]: https://github.com/savio591/savildesk/projects/1
+[issues]: https://github.com/savio591/savildesk/issues
+[template]: https://github.com/ixkaito/nextsss
+[ixkaito]: https://github.com/ixkaito
