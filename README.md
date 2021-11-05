@@ -1,5 +1,9 @@
 # Savil Desk - Landing Page feito com Bootstrap
 
+⚠️ **Projeto em desenvolvimento, para informações e códigos atualizados, vá para á branch [dev]** ⚠️
+
+**O código desta branch é apenas do [template] de [ixkaito], não esqueça de dar um ao `git checkout -S dev` após clonar**
+
 Este projeto consiste em criar uma **landing page** como proposta de colocação no mercado através da [Brivia], uma empresa de Marketing/P&D.
 
 # Requisitos da proposta:
@@ -23,9 +27,9 @@ A se basear no prazo e em atividades passadas, seguirei o seguinte cronograma.
 | Correção de bugs e finalização de documentação | Preparar para entregar e boa sorte!                                                                                                        | 8º dia(11 de Nov. 2021) |
 
 # Sobre a concepção:
-De cara, misturar meu nome com a proposta, é claro! Como devo seguir o modelo dos arquivos de apoio, criarei uma logo rápida no figma, assim como os textos, cores, tipos e em palavras-chave que sejam atraentes para o SEO(Pelo tempo curto e pelo não-foco em redação, nos textos eu seguirei a minha intuição nessa parte).
+De cara, pensei em misturar meu nome com o tema do [material de apoio], é claro! Como devo seguir o modelo dos arquivos de apoio, criarei uma logo rápida no figma, assim como os textos, cores, tipos e em palavras-chave que sejam atraentes para o SEO(Pelo tempo curto e pelo não-foco em redação, nos textos eu seguirei a minha intuição nessa parte).
 
-**Observação:** Como usuário linux e por ter um computador *low end*, utilizar o Adobe XD ficou fora de cogitação para referenciar, portanto, utilizarei meus conhecimentos e o layout a se basear na imagem enviada. Espero não perder pontos devido a detalhes de espaçamento.
+**Observação:** Como usuário linux e por ter um computador *[low end]*, utilizar o Adobe XD ficou fora de cogitação para referenciar, portanto, utilizarei meus conhecimentos e o layout a se basear na imagem enviada. Espero não perder pontos devido a detalhes de espaçamento.
 
 Para conciliar o React com o clássico HTML feito à mão, escolhi desenvolver com o Next.JS, graças à sua tecnologia de compilar o projeto ao mais nativo possível, ou seja, ele dispensa a responsabilidade total do `HTML in JS` como **[SPA]**, em outras palavras, **renderiza e constroe o React em HTML e CSS**, todas as tags, elementos, classes geradas pelo Javascript. Com isso, é possível controlar e facilitar a leitura dos WebCrawlers dos provedores de busca, da geração das meta tags e de estilizações de pré-processadores.
 
@@ -37,21 +41,25 @@ Para acelerar o uso, configuração de ambiente e instalação de pacotes, utili
 
 ## Padrões de desenvolvimento:
 
-* Funções, classes, variáveis, comentários devem ser escritos em **Inglês**;
+* Funções, classes, variáveis, comentários escritos em **Inglês**;
 * **Hierarquia de arquivos:** a seguir o padrão comum entre desenvolvedores React/Next.JS(Acredito que para devs de outros ecossistemas que os padrões de código são autoexplicativas); Especialmente a [documentação] do Next.JS
 * **Padrões de código e estilo:** O favorito dos JS Devs, [Airbnb]
 
 ** ** *Em desenvolvimento(Estou aqui.)* ** **
 
 ---
-Feito com 💜, Savio Castelo, 2021.
+Feito com 💜, [Savio Castelo], 2021.
 
 
-[Brivia]: https://www.brivia.com.br
+[Brivia]: https://www.brivia.com.br "Brivia, me contrate, por favor! <3"
 [Airbnb]: https://github.com/airbnb/javascript
 [documentação]: https://nextjs.org/docs/basic-features/layouts#with-typescript
-[SPA]: https://www.portalgsti.com.br/2017/08/single-page-application-spa.html#:~:text=SPA%20significa%20Aplica%C3%A7%C3%A3o%20de%20P%C3%A1gina,de%20%23JavaScript%20e%20seus%20frameworks.
+[SPA]: https://www.portalgsti.com.br/2017/08/single-page-application-spa.html#:~:text=SPA%20significa%20Aplica%C3%A7%C3%A3o%20de%20P%C3%A1gina,de%20%23JavaScript%20e%20seus%20frameworks. "Single Page Application"
 [kanban]: https://github.com/savio591/savildesk/projects/1
 [issues]: https://github.com/savio591/savildesk/issues
 [template]: https://github.com/ixkaito/nextsss
 [ixkaito]: https://github.com/ixkaito
+[dev]: https://github.com/savio591/savildesk/tree/dev
+[material de apoio]: https://drive.google.com/file/d/1Lj-o77MooS29X2NqxpgpFqJgc24pnjkE/view
+[Savio Castelo]: https://savio591.github.io/ "Meu perfil pessoal"
+[low end]: https://translate.google.com/?um=1&ie=UTF-8&hl=en&client=tw-ob#auto/pt/low+end "Baixo Nível"
