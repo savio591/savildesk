@@ -3,11 +3,12 @@
  **/
 const config = {
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'jsx-a11y'],
   extends: [
     'eslint:recommended',
     'next',
     'next/core-web-vitals',
+    "plugin:jsx-a11y/recommended",
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     // Uncomment the following lines to enable eslint-config-prettier
@@ -40,6 +41,7 @@ const config = {
       2,
       {
         argsIgnorePattern: '^_',
+
       },
     ],
     'no-console': [
