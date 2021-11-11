@@ -1,11 +1,11 @@
 import { NextSeo } from 'next-seo'
 import Article from '../components/Article'
-// import Image from 'next/image'
 import Container from '../components/Container'
-import Footer from '../components/Footer'
 import Header from '../components/Header'
-// import styles from '../styles/Home.module.scss'
-// import logo from '../public/logo@2x.png'
+import { SectionHero } from '../components/SectionHero'
+import { SectionJobs } from '../components/SectionJobs'
+import { SectionGrids } from '../components/SectionGrids'
+import Footer from '../components/Footer'
 
 const Home: React.FC = () => {
   return (
@@ -19,7 +19,11 @@ const Home: React.FC = () => {
       />
       <Container>
         <Header />
-        <Article>A</Article>
+        <Article>
+          <SectionHero />
+          <SectionJobs />
+          <SectionGrids />
+        </Article>
         <Footer />
       </Container>
     </>
