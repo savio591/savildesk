@@ -1,0 +1,12 @@
+@import '../../scss/mixins.scss';
+ .container {
+  color: #ffffff;
+
+  h2 {
+    @include sectionH2;
+  }
+
+  p {
+    @include sectionP
+  }
+}

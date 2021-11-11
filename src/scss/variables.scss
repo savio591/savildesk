@@ -1,0 +1,26 @@
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+@function header-size-height($screen: mobile) {
+  $hsize: null;
+
+  @if ($screen == desktop) {
+    $hsize: 72px;
+  }
+  @if ($screen == mobile) {
+    $hsize: 60px;
+  }
+  @return #{$hsize};
+}
+
+$primary: #ffb74b;
+$background-light: #ECF2F2;
+$text-dark: #444444;
+$gray-200: #454545;
+$blue-50: #4541F0;

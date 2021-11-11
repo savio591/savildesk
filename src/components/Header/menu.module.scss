@@ -1,0 +1,22 @@
+@use "sass:map";
+@import '../../scss/variables.scss';
+
+header.header {
+  max-height: header-size-height(mobile);
+  height: header-size-height(mobile);
+  backdrop-filter: blur(4px);
+
+  @media (min-width: map.get($grid-breakpoints, 'sm')) {
+    max-height: header-size-height(desktop);
+    height: header-size-height(desktop);
+  }
+}
+
+.closeButton {
+  position: absolute;
+  right: 0;
+
+  .closeIcon {
+    font-size: 2rem;
+  }
+}

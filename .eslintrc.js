@@ -3,11 +3,12 @@
  **/
 const config = {
   parser: '@typescript-eslint/parser',
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'jsx-a11y'],
   extends: [
     'eslint:recommended',
     'next',
     'next/core-web-vitals',
+    'plugin:jsx-a11y/recommended',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     // Uncomment the following lines to enable eslint-config-prettier
@@ -26,6 +27,7 @@ const config = {
     },
   },
   rules: {
+    'jsx-a11y/anchor-is-valid': 0,
     'react/react-in-jsx-scope': 0,
     'react/display-name': 0,
     'react/prop-types': 0,
