@@ -12,6 +12,11 @@ Este projeto consistiu em criar uma **landing page** como proposta de colocaçã
 
 Clique [neste link](https://savio591.github.io/savildesk) para ver o resultado do projeto.
 
+## Imagens
+![image](https://user-images.githubusercontent.com/3879613/141384097-5b454d5e-cd28-4afc-a159-f0a02d4dedfc.png)
+![image](https://user-images.githubusercontent.com/3879613/141383860-dd556706-cc2f-40e4-adcd-5c7ca7439291.png)
+![image](https://user-images.githubusercontent.com/3879613/141384241-1e8dee9b-f8d1-46fe-8563-395a834b8c0b.png)
+
 # Requisitos da proposta:
 *	Desenvolver em HTML5, html deve ser **semântico** com as boas práticas de **SEO**; 
 *	Utilizar **SASS/SCSS** para CSS;
