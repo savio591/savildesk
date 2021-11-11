@@ -1,6 +1,14 @@
+
 # Savil Desk - Landing Page feito com Bootstrap
 
-Este projeto consiste em criar uma **landing page** como proposta de colocação no mercado através da [Brivia], uma empresa de Marketing/P&D.
+[![wakatime](https://wakatime.com/badge/github/savio591/savildesk.svg)](https://wakatime.com/badge/github/savio591/savildesk)
+[![typescript](https://badgen.net/badge/icon/typescript?icon=typescript&label)](https://www.typescriptlang.org/)
+![Next JS](https://img.shields.io/badge/Next-black?logo=next.js&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?logo=vercel&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?logo=SASS&logoColor=white)
+![Bootstrap](https://badgen.net/badge/styleframework/bootstrap/blue)
+
+Este projeto consistiu em criar uma **landing page** como proposta de colocação no mercado através da [Brivia], uma empresa de Marketing/P&D.
 
 Clique [neste link](https://savio591.github.io/savildesk) para ver o resultado do projeto.
 
@@ -12,11 +20,11 @@ Clique [neste link](https://savio591.github.io/savildesk) para ver o resultado d
 *	Utilizar uma **ferramenta de automatização** de tarefas para compilar e minificar os assets;
 *	O formulário deve conter **validação** em todos os campos, não precisa fazer o envio;
 *	Utilizar **SVG** para os ícones;
-* O prazo de entrega é de **7 dias**, ou seja, **deverá ser desenvolvido** entre **4/11/21** e **11/11/21**
+* O prazo de entrega é de **7 dias**, ou seja, **desenvolvido** entre **4/11/21** e **11/11/21**
 
 # Cronograma:
 
-A se basear no prazo e em atividades passadas, seguirei o seguinte cronograma.
+A se basear no prazo e em atividades passadas, segui o seguinte cronograma.
 
 | Nome                                           | Descrição                                                                                                                                  | Deadline                |
 | ---------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------- |
@@ -32,9 +40,9 @@ De cara, pensei em misturar meu nome com o projeto é claro! Como devo seguir o 
 
 Para conciliar o React com o clássico HTML feito à mão, escolhi desenvolver com o Next.JS, que compila o projeto ao mais nativo possível, ou seja, ele dispensa a responsabilidade total do `HTML in JS` como **[SPA]**, em outras palavras, **renderiza e constroe o React em HTML e CSS**, todas as tags, elementos, classes geradas pelo Javascript. Com isso, é possível controlar e facilitar a leitura dos WebCrawlers dos provedores de busca, da geração das meta tags e de estilizações de pré-processadores.
 
-Neste projeto utilizarei este [kanban] e a aba [issues] para controle de tarefas e desenvolvimento.
+Neste projeto utilizei este [kanban] e a aba [issues] para controle de tarefas e desenvolvimento.
 
-Para acelerar o uso, configuração de ambiente e instalação de pacotes, utilizei este [template] de [ixkaito].
+Para acelerar o uso, configuração de ambiente e instalação de pacotes, usei este [template] de [ixkaito].
 
 ## Figma RSS(Replaced Service Sesign):
 Ainda no primeiro dia da sprint, desenvolvi uma logo simples e rápida, isso graças ao nome do arquivo do [material de apoio]. **Savildesk**.
@@ -55,20 +63,25 @@ Os princípios **Atomic Design** e **SoC** foram a base do meu workflow. Em resu
 
 Os componentes foram criados rapidamente através das classes do [bootstrap], além da customização através dos [módulos css/scss].
 
+Optei por aplicar diversas formas de desenvolvimento, por exemplo, o uso do layout misto utilizando classes, módulos css e inline styling.
 
-** ** *Em desenvolvimento(Estou aqui.)* ** **
+Bugs ficaram como última prioridade. Logo, ao ver algo que pode ser consertado depois, fui a criar [issues].
 
 ## Padrões de desenvolvimento:
 
 * Funções, classes, variáveis, comentários escritos em **Inglês**;
 * **Hierarquia de arquivos:** a seguir o padrão comum entre desenvolvedores React/Next.JS(Acredito que para devs de outros ecossistemas que os padrões de código são autoexplicativas); Especialmente a [documentação ts] do Next.JS
-* **Padrões de código e estilo:** O favorito dos JS Devs, [Airbnb]
+* **Padrões de código e estilo:** O favorito dos JS Devs, [Airbnb], não como regra absoluta.
 
-** ** *Em desenvolvimento(Estou aqui.)* ** **
+## O que aprendi?
+
+* Habilidades de uso e importância de breakpoints para uma interface responsiva;
+* Usar na prática as funções, mixins e módulos, importações e outras funcionalidades do SASS;
+* Diversas classes do Boostrap;
+* Otimização de imagens;
 
 ---
 Feito com 💜, [Savio Castelo], 2021.
-
 
 [Airbnb]: https://github.com/airbnb/javascript
 [bootstrap]: https://getbootstrap.com/docs/5.0/getting-started/introduction/
