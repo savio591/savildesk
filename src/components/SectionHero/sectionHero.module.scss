@@ -1,0 +1,86 @@
+@use "sass:map";
+
+@import '../../scss/variables.scss';
+
+
+.container {
+  position: relative;
+}
+
+.bgImage {
+  background: center / cover url('/meeting-table-unsplash.jpg');
+  position: absolute;
+  z-index: -1;
+  filter: brightness(0.7) contrast(1.1);
+  opacity: 1;
+}
+
+.copy {
+  padding: 4.25rem 16px 16px 16px;
+
+  h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 8px;
+
+    margin-top: 32px;
+  }
+
+  a {
+    width: 100%;
+
+    @media screen and (min-width: map.get($grid-breakpoints, 'sm')) {
+      width: auto;
+    }
+  }
+
+  p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    &.p1 {
+      font-size: 20px;
+      font-weight: bold;
+      // line-height: 30px;
+
+      margin-top: 32px;
+    }
+
+    &.p2 {
+      font-weight: 300;
+      font-size: 24px;
+
+      margin-top: 16px;
+    }
+
+    &.p3 {
+      font-size: 20px;
+      font-weight: bold;
+      // line-height: 30px;
+
+      margin-top: 32px;
+    }
+
+    &.p4 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: normal;
+      font-size: 16px;
+
+      margin-top: 16px;
+    }
+  }
+
+  @media screen and (min-width: map.get($grid-breakpoints, 'lg')) {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+}
+
