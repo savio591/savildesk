@@ -1,0 +1,17 @@
+@mixin sectionP {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: justify;
+  letter-spacing: -0.5px;
+}
+
+@mixin sectionH2 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+}

@@ -1,5 +1,16 @@
-
+@import './variables.scss';
 // $body-bg: #FBAC;
 // $body-color: #feface;
+// $primary: #ffb74b;
 
-@import "node_modules/bootstrap/scss/bootstrap";
+.savilButton {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-style: normal;
+  font-weight: bold !important;
+  font-size: 20px;
+  line-height: 30px;
+
+  text-transform: uppercase;
+}
+
+@import 'node_modules/bootstrap/scss/bootstrap';
