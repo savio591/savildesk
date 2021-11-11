@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     <header
       className={`${styles.header} bg-dark bg-opacity-75 d-flex flex-row align-items-center position-absolute w-100`}
     >
-      <Logo inABoxDiv={true} format="square" />
+      <Logo inABoxDiv={true} format="square" variation="dark" />
       <SearchBox />
       <Menu />
     </header>
