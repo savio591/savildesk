@@ -10,7 +10,7 @@
 
 Este projeto consistiu em criar uma **landing page** como proposta de colocação no mercado através da [Brivia], uma empresa de Marketing/P&D.
 
-Clique [neste link](https://savio591.github.io/savildesk) para ver o resultado do projeto.
+Clique [neste link](https://savildesk-savio591.vercel.app) para ver o resultado do projeto.
 
 # Requisitos da proposta:
 *	Desenvolver em HTML5, html deve ser **semântico** com as boas práticas de **SEO**; 
