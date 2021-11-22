@@ -59,7 +59,7 @@ O resto da concepção foi fluiu a partir dos princípios: "copie, mas não faç
 
 Depois de um bom tempo, longe do bootstrap, recomecei a ver o que tinha de novo e vi que a versão 5.0 foi lançada recentemente. Para a minha felicidade, a nova versão usa o [SASS].
 
-Os princípios **Atomic Design** e **SoC** foram a base do meu workflow. Em resumo, criar componentes independentes e declarativos, mas que fazem parte do todo.
+Segui como princípio criar componentes independentes e declarativos, mas que fazem parte do todo.
 
 Os componentes foram criados rapidamente através das classes do [bootstrap], além da customização através dos [módulos css/scss].
 

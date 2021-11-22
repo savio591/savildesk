@@ -1,13 +1,14 @@
 @use 'sass:map';
 @import '/node_modules/bootstrap/scss/functions';
 @import '../../scss/variables.scss';
-@import '/node_modules/bootstrap/scss/variables';
-@import '/node_modules/bootstrap/scss/mixins';
+@import '../../scss/mixins.scss';
 
 .container {
   display: none;
 
   @media screen and (min-width: map.get($grid-breakpoints, 'md')) {
+    @include animate-fadeIn;
+    animation-duration: 2s;
     padding: 1rem;
     display: block;
     margin-top: header-size-height(desktop);

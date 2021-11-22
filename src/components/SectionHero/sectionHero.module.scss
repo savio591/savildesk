@@ -1,10 +1,11 @@
-@use "sass:map";
+@use 'sass:map';
 
 @import '../../scss/variables.scss';
-
+@import '../../scss/mixins.scss';
 
 .container {
   position: relative;
+  @include animate-fadeIn;
 }
 
 .bgImage {
@@ -83,4 +84,3 @@
     padding-right: 9rem;
   }
 }
-
